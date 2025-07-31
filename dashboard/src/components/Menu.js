@@ -23,7 +23,7 @@ useEffect(() => {
     const fetchUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:3001/verify",
+          "https://stock-trading-platform-gagk.onrender.com/verify",
           {},
           { withCredentials: true }
         );

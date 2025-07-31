@@ -15,7 +15,7 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://zerodha-clone-ivug.onrender.com","https://stock-trading-platform-0u2s.onrender.com/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   }));
